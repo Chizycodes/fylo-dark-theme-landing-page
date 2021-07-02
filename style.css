@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  width: 100vw;
+}
+
+header {
+  background-color: hsl(217, 28%, 15%);
+}
+
+nav > div > img {
+  width: 6.2em;
+  height: 2em;
+  vertical-align: middle;
+}
+
+ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
+  height: 5em;
+}
+
+.menu-div > ul {
+  display: flex;
+}
+
+.menu-div > ul > li {
+  padding-right: 1.5em;
+}
+
+.intro > img,
+.intro {
+  width: 90%;
+  margin: 0em auto;
+  position: relative;
+  top: 30px;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: Raleway;
+}
+
+.curvy-section {
+  background-image: url("/images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 9em 3em 0 3em;
+}
+
+.curvy-section > h1 {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+main {
+  background-color: hsl(218, 28%, 13%);
+  padding-top: 10em;
+}
+
+button {
+  background-color: hsl(198, 60%, 50%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1em 6em;
+  border-radius: 2em;
+  margin-top: 2em;
+}
+
+button:hover {
+  background-color: hsl(176, 68%, 64%);
+}
+
+.form {
+  background-color: hsl(217, 28%, 15%);
+}
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+}
+
+i {
+  color: #fff;
+}
+.icon-div {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
